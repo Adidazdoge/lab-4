@@ -57,6 +57,10 @@ public class Config {
         return new LeaveTeamUseCase(gradeDataBase);
     }
 
+    public GetTopGradeUseCase getTopGradeUseCase() {
+        return new GetTopGradeUseCase(gradeDataBase);
+    }
+
     /**
      * Get the GetAverageGradeUseCase object.
      * @return GetAverageGradeUseCase object.
